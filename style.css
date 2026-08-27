@@ -1,0 +1,100 @@
+body {
+    background: #0B131a;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+}
+
+.small-text {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.temp-big {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.card-dark {
+    background: #111827;
+    border-radius: 16px;
+    border: none;
+    color: #e5e7eb;
+}
+
+.hour-box-color {
+    background: #1f2937;
+    border-radius: 12px;
+}
+
+.hour-box {
+    padding: 10px;
+    text-align: center;
+}
+
+.sun-icon {
+    font-size: 80px;
+    color: gold;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 767px) {
+
+    .card-dark {
+        padding: 20px !important;
+    }
+
+    .temp-big {
+        font-size: 42px;
+    }
+
+    .sun-icon {
+        font-size: 55px;
+    }
+
+    .hour-box {
+        min-width: 85px;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .hour-box img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .temp-big {
+        font-size: 38px;
+    }
+
+    .sun-icon {
+        font-size: 45px;
+    }
+
+    .card-dark {
+        padding: 15px !important;
+    }
+
+    .hour-box {
+        min-width: 75px;
+        font-size: 12px;
+    }
+
+    .hour-box img {
+        width: 35px;
+        height: 35px;
+    }
+
+}
